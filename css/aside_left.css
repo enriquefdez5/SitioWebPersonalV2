@@ -1,0 +1,7 @@
+aside {
+    float:right;
+    width: 20%;
+}
+section {
+    border-right: 0.2em solid black;
+}
