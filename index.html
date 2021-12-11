@@ -45,11 +45,11 @@
         <!-- Solo un h1 por documento -->
         <h1>Página web de Enrique</h1>
         <nav class="container">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
+            <ul class="nav nav-tabs row">
+                <li class="nav-item col">
                     <a class="nav-link active" aria-current="page" href="index.html">Index</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown col">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="aficiones.html" role="button" aria-expanded="false">Aficiones</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="aficiones.html#futbol">Fútbol</a></li>
@@ -57,10 +57,10 @@
                         <li><a class="dropdown-item" href="aficiones.html#fronton">Frontón</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col">
                     <a class="nav-link" href="musica.html">Música</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown col">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="pueblo.html" role="button" aria-expanded="false">Pueblo</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="pueblo.html#campanario">Campanario</a></li>
@@ -71,58 +71,38 @@
             </ul>
         </nav>
 
-
-
-
-<!--        <nav>-->
-<!--            &lt;!&ndash; Si lo quiero poner en horizontal debo quitar la lista &ndash;&gt;-->
-<!--            <a accesskey="I" tabindex="0" href="index.html">Index</a>-->
-<!--            <div class="subnav">-->
-<!--                <a class="subnava" accesskey="A" tabindex="0" href="aficiones.html">Aficiones</a>-->
-<!--                <div class="subnav-content">-->
-<!--                    <a href="aficiones.html#futbol">Fútbol</a>-->
-<!--                    <a href="aficiones.html#triatlon">Triatlon</a>-->
-<!--                    <a href="aficiones.html#fronton">Frontón</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <a accesskey="M" tabindex="0" href="musica.html">Música</a>-->
-<!--            <div class="subnav">-->
-<!--                <a class="subnava" accesskey="P" tabindex="0" href="pueblo.html">Pueblo</a>-->
-<!--                <div class="subnav-content">-->
-<!--                    <a href="pueblo.html#campanario">Campanario</a>-->
-<!--                    <a href="pueblo.html#fronton">Frontón</a>-->
-<!--                    <a href="pueblo.html#iglesia">Iglesia</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </nav>-->
     </header>
     <main class="container">
-        <section>
-            <h2>Biografía</h2>
-            <figure>
-                <img alt="Imagen de Enrique de vacaciones." src="Multimedia/enrique.jpeg" width="200" height="250">
-                <figcaption>Enrique de vacaciones.</figcaption>
-            </figure>
-            <p>Nombre: Enrique</p>
-            <p>Apellidos: Fernández Manzano</p>
-            <p>Edad: 23 años</p>
-            <p>Lugar de nacimiento: Oviedo</p>
-            <p>
-                Soy Enrique Fernández Manzano, aunque me suelen llamar Kike. En estos momentos estoy cursando el Master
-                en Ingeniería Web de la Universidad de Oviedo al mismo tiempo que trabajo en una beca de un proyecto de
-                investigación de la Fundación Universidad de Oviedo. El poco tiempo libre que tengo me gusta dedicarlo a
-                jugar con Appa, mi mascota, o realizar deporte.
-            </p>
-        </section>
+        <div class="row">
 
-        <aside>
-            <h2>Appa</h2>
-            <p>Esta es mi mascota Appa, es un Border Collie de 1 año de edad.</p>
-            <figure>
-                <img alt="Imagen de Appa disfrutando del sol en un parque." src="Multimedia/appa.jpeg" width="200" height="350">
-                <figcaption>Mi mascota Appa</figcaption>
-            </figure>
-        </aside>
+            <section class="col-8">
+                <h2>Biografía</h2>
+                <figure>
+                    <img alt="Imagen de Enrique de vacaciones." src="Multimedia/enrique.jpeg" width="200" height="250">
+                    <figcaption>Enrique de vacaciones.</figcaption>
+                </figure>
+                <p>Nombre: Enrique</p>
+                <p>Apellidos: Fernández Manzano</p>
+                <p>Edad: 23 años</p>
+                <p>Lugar de nacimiento: Oviedo</p>
+                <p>
+                    Soy Enrique Fernández Manzano, aunque me suelen llamar Kike. En estos momentos estoy cursando el Master
+                    en Ingeniería Web de la Universidad de Oviedo al mismo tiempo que trabajo en una beca de un proyecto de
+                    investigación de la Fundación Universidad de Oviedo. El poco tiempo libre que tengo me gusta dedicarlo a
+                    jugar con Appa, mi mascota, o realizar deporte.
+                </p>
+            </section>
+
+            <aside class="col">
+                <h2>Appa</h2>
+                <p>Esta es mi mascota Appa, es un Border Collie de 1 año de edad.</p>
+                <figure>
+                    <img alt="Imagen de Appa disfrutando del sol en un parque." src="Multimedia/appa.jpeg" width="200" height="350">
+                    <figcaption>Mi mascota Appa</figcaption>
+                </figure>
+            </aside>
+
+        </div>
     </main>
     <footer>
         <h2>Información de contacto</h2>
