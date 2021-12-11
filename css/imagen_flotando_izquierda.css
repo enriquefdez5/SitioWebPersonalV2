@@ -2,14 +2,5 @@
 figure {
     margin: 0.8em;
     float: left;
-    
-}
-/* a=0 b=0 c=2 -> specificity =   2*/
-figure img {
-    vertical-align: top;
-}
-/* a=0 b=0 c=2 -> specificity =   2*/
-figure figcaption {
-    text-align: left;
-    width: 60%;
+
 }
