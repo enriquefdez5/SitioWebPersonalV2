@@ -37,34 +37,43 @@
 </head>
 <body>
     <header>
-        <h1 class="h1">Música</h1>
-
-        <nav class="container">
-            <ul class="nav nav-tabs row">
-                <li class="nav-item col">
-                    <a class="nav-link" aria-current="page" href="index.html">Index</a>
-                </li>
-                <li class="nav-item dropdown col">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="aficiones.html" role="button" aria-expanded="false">Aficiones</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="aficiones.html#futbol">Fútbol</a></li>
-                        <li><a class="dropdown-item" href="aficiones.html#triatlon">Triatlón</a></li>
-                        <li><a class="dropdown-item" href="aficiones.html#fronton">Frontón</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item col">
-                    <a class="nav-link active" href="musica.html">Música</a>
-                </li>
-                <li class="nav-item dropdown col">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="pueblo.html" role="button" aria-expanded="false">Pueblo</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="pueblo.html#campanario">Campanario</a></li>
-                        <li><a class="dropdown-item" href="pueblo.html#fronton">Frontón</a></li>
-                        <li><a class="dropdown-item" href="pueblo.html#iglesia">Iglesia</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1 class="h1">Música</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Perfil</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="aficiones.html" id="aficionesNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Aficiones
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="aficionesNavbarDropdown">
+                                    <li><a class="dropdown-item" href="aficiones.html#futbol">Fútbol</a></li>
+                                    <li><a class="dropdown-item" href="aficiones.html#triatlon">Triatlón</a></li>
+                                    <li><a class="dropdown-item" href="aficiones.html#fronton">Frontón</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="musica.html">Música</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="pueblo.html" id="puebloNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pueblo
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="puebloNavbarDropdown">
+                                    <li><a class="dropdown-item" href="pueblo.html#campanario">Campanario</a></li>
+                                    <li><a class="dropdown-item" href="pueblo.html#fronton">Frontón</a></li>
+                                    <li><a class="dropdown-item" href="pueblo.html#iglesia">Iglesia</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
     </header>
     <main class="container">
